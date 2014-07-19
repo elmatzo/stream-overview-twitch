@@ -1,0 +1,45 @@
+body{
+width: 420px;
+color:steelblue;
+background-color: #fff;
+}
+span{
+display: inline-block;
+float: right;
+}
+a{
+text-decoration:none !important;
+color:steelblue;
+}
+img{
+margin: auto;
+}
+#other{
+float:right;
+}
+#first{
+    border-top:none !important;
+}
+.list-group-item{
+    border-bottom:none;
+    border-right:none;
+    border-radius:0 !important;
+    background-repeat: no-repeat;
+    background-size: 20px 18px;
+    background-position: 1% 50%;
+    padding-left:30px;
+    padding-right: 3px;
+}
+#otherIn{
+    display:none;
+}
+.list-group-item:hover{
+    cursor:pointer;
+    background-color: lightgrey !important;
+}
+.nav,.nav-tabs{
+    font-family: 'PT Sans', sans-serif;
+}
+.list-group-item{
+    font-family: 'Oswald', sans-serif; 
+}
